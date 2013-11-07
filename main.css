@@ -1,0 +1,139 @@
+html,body {
+    height:100%;
+    background: url("img/bkg.gif");
+    padding: 0;
+    margin: 0;
+}
+
+#wrapper{
+    min-width: 900px;
+    max-width: 900px;
+    background-color: white;
+    min-height:100%;
+    margin:0 auto;
+}
+
+#wrapper, #content, #results, #search{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#content{
+    min-width: 880px;
+    max-width: 880px;
+}
+
+#title{
+    font-size: 62px;
+    text-align: center;
+    padding: 10px;
+}
+
+#SearchBox{
+    width:400px;
+    height:25px;
+    font-size: 18px;
+    padding:2px 5px;
+    color: #898989;
+    border: none;
+}
+#SearchSubmit{
+    font-family: 'Armata', sans-serif;
+    font-size: 18px;
+    background-color: #cccccc;
+    color: #ffffff;
+    border: none;
+    min-height: 30px;
+    width: 80px;
+    -webkit-border-top-right-radius: 5px;
+    -webkit-border-bottom-right-radius: 5px;
+    -moz-border-radius-topright: 5px;
+    -moz-border-radius-bottomright: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#SearchTable{
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #cccccc;
+    background-color: white;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    border-radius: 5px;
+}
+#results{
+    padding-top: 35px;
+}
+.video{
+    padding: 5px;
+    min-width: 200px;
+    min-height: 130px;
+}
+.videoBlock{
+    background-color: #898989;
+    min-width: 200px;
+    height: 105px;
+}
+#videoTitle{
+    text-align: center;
+    font-size: 14px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.videoLarge{
+    padding: 20px;
+    min-width: 640px;
+    min-height: 480px;
+}
+.videoBlockLarge{
+    background-color: #898989;
+    min-width: 640px;
+    height: 480px;
+}
+#videoTitleLarge{
+    text-align: center;
+    font-size: 26px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+#videoTitleLargee{
+    text-align: center;
+    font-size: 22px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    padding-bottom: 10px;
+}
+
+#suggest{
+    margin-top: 10px;
+    margin-right: 20px;
+    float: right;
+}
+#comments{
+    margin-top: 10px;
+    float: left;
+    min-width: 400px;
+}
+
+.commentBlock{
+    
+    padding: 10px;
+    margin-left: 20px;
+    background-color: #cccccc;
+    min-width: 420px;
+}
+.commentBlockTitle{
+    font-size: 18px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+.comment{
+    font-size: 14px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+#suggestSearch{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 12px;
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    text-align: center;
+}
